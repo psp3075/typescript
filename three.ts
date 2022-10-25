@@ -1,3 +1,5 @@
-const user = {name:'pavan',age:16}
+let userId = 12345 //type inference
 
-console.log('Hello')
+userId.toFixed()
+
+let isLoggedIn:boolean = false;

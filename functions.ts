@@ -6,8 +6,9 @@ function addTen(num:number){
     return num + 10
 }
 
-
-
-function signUpUser(name:string,email:string,password:string,isPremium:true){
+function signUpUser(name:string,email:string,password:string,isPremium:boolean=false){
     return 'signed up successfully'
 }
+
+addTen(10)
+signUpUser('psp','psp@psp.com','asaasa')
